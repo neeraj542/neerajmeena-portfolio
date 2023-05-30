@@ -10,4 +10,17 @@
     html {
         font-family: 'Raleway', sans-serif;
     }
+
+    @media (max-height: 620px) {
+        .h-unset {
+            height: unset !important; 
+        }
+
+        .miniModal {
+            height: 300px !important;
+            width: auto !important;
+        }
+    }
+    
+
 }
